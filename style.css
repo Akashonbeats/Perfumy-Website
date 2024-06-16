@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+h3, li, ul{
+    display: inline;
+}
+ul{
+    margin-left: 72%;
+}
+li{
+    color: rgb(170, 129, 72);
+    margin-left: 20px;
+}
+li:hover{
+    color: antiquewhite;
+    cursor: pointer;
+}
+input{
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+.searchbar{
+    padding: 30px;
+    text-align: center;
+}
+input[type="text"]:focus {
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+}
+input[type="text"]::placeholder{
+    color: antiquewhite;
+}
+input{
+    background-color: rgb(170, 129, 72);
+    color: antiquewhite;
+}
+img{
+    width: 220px;
+    height: 220px;
+    padding: 4px;
+    border-radius: 15px;
+}
+.box{
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 17px;
+    display: inline-block;
+    width: 228px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.box:hover{
+    background-color: black;
+    color: antiquewhite;
+}
+.prodpara{
+    padding: 7px;
+    padding-bottom: 15px;
+}
+.products{
+    text-align: center;
+    padding-top: 125px;
+}
+.about{
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 150px;
+}
+.abtparabox{
+    text-align: center;
+}
+.abtpara{
+    padding: 10px;
+    width: 70%;
+    display: inline-block;
+}
+.contact{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
